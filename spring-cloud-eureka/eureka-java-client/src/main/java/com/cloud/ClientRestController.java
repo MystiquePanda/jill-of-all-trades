@@ -12,4 +12,8 @@ public class ClientRestController {
         return "test";
     }
 
+    @RequestMapping("/")
+    public String home() {
+        return "Hello World";
+    }
 }
